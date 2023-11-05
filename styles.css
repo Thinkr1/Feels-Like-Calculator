@@ -311,22 +311,22 @@ input::-webkit-inner-spin-button {
   }
 }
 
-@keyframes btn-top {
-  0%,
-  100% {
-    transform: translateX(-50%);
-  }
-  50% {
-    transform: translateX(100%);
-  }
-}
-
 @keyframes btn-btm {
   0%,
   100% {
-    transform: translateX(50%);
+    transform: translateX(-100%);
   }
   50% {
-    transform: translateX(-100%);
+    transform: translateX(50%);
+  }
+}
+
+@keyframes btn-top {
+  0%,
+  100% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(-50%);
   }
 }

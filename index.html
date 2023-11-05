@@ -31,6 +31,14 @@
             <input type="number" name="humid" id="humid" required />
             <label>Relative Humidity (%)</label>
           </div>
+          <!-- <div class="input">
+            <input type="number" name="press" id="press" required />
+            <label>Water vapour pressure (hPa)</label>
+          </div> -->
+          <div class="input">
+            <input type="number" name="wind" id="wind" required />
+            <label>Wind speed at 10m elevation (km/h)</label>
+          </div>
           <a href="javascript:void(0)" id="button">
             <span></span>
             <span></span>
@@ -54,13 +62,7 @@
       Sources
       <label class="popuptext" id="sourcesp"
         >Formula -
-        <a target="_blank" href="https://en.wikipedia.org/wiki/Heat_index"
-          >Wikipedia.org</a
-        >
-        and
-        <a target="_blank" href="https://www.weather.gov/ama/heatindex"
-          >Weather.gov</a
-        ></label
+        <a href="http://www.bom.gov.au/info/thermal_stress/?cid=003bl08">BOM.gov.au</a></label
       >
     </div>
     <script src="script.js"></script>
